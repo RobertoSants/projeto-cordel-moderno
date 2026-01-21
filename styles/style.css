@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-destaque: 'Passion One', sans-serif;
+    --fonte-cordel: 'Sriracha', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-family: var(--fonte-destaque);
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header h1 > span {
+    font-size: 10vw;
+}
+
+header p {
+    padding-bottom: 50px;
+    font-family: var(--fonte-padrão);
+    font-size: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.branco {
+    font-family: var(--fonte-cordel);
+    font-size: 3vw;
+    padding: 50px;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+.cordel {
+    font-family: var(--fonte-cordel);
+    font-size: 3vw;
+    padding: 50px;
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.342);
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cordel p {
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 5px;
+}
+
+.cordel2 {
+    font-family: var(--fonte-cordel);
+    font-size: 3vw;
+    padding: 50px;
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.342);
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cordel2 p {
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 5px;
+}
