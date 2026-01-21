@@ -64,6 +64,7 @@ section > p {
     padding: 50px;
     box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.342);
     background-image: url('../imagens/background001.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -81,6 +82,7 @@ section > p {
     padding: 50px;
     box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.342);
     background-image: url('../imagens/background002.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
